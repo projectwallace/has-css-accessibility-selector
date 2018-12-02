@@ -1,7 +1,7 @@
 {
   "name": "has-css-accessibility-selector",
   "version": "0.1.0",
-  "description": "A test to determine wether a selector contains an accessibility-related selector (`*`)",
+  "description": "A test to determine wether a selector contains an accessibility-related selector",
   "main": "index.js",
   "scripts": {
     "test": "xo && ava"
