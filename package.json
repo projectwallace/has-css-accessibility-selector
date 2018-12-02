@@ -1,0 +1,53 @@
+{
+  "name": "has-css-accessibility-selector",
+  "version": "0.1.0",
+  "description": "A test to determine wether a selector contains an accessibility-related selector (`*`)",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": "bartveneman/has-css-accessibility-selector",
+  "keywords": [
+    "css",
+    "selector",
+    "js",
+    "javascript",
+    "check",
+    "test",
+    "assert",
+    "analyzer",
+    "complexity",
+    "projectwallace",
+    "wallace"
+  ],
+  "author": "Bart Veneman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bartveneman/has-css-accessibility-selector/issues"
+  },
+  "homepage": "https://www.projectwallace.com/oss",
+  "devDependencies": {
+    "ava": "^1.0.0-rc.2",
+    "prettier": "^1.15.2",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "semicolon": false,
+    "prettier": true
+  },
+  "prettier": {
+    "useTabs": true,
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "proseWrap": "always",
+    "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "useTabs": false
+        }
+      }
+    ]
+  }
+}
