@@ -1,6 +1,6 @@
 {
   "name": "has-css-accessibility-selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A test to determine wether a selector contains an accessibility-related selector",
   "main": "index.js",
   "scripts": {
